@@ -68,6 +68,7 @@ M.polish_hl = {
     ["@keyword.function"] = { fg = M.base_30.teal },
     ["@comment"] = { fg = M.base_30.comment },
     ["@comment.documentation"] = { fg = M.base_30.comment },
+    ["@type"] = { fg = M.base_30.green1 }
   },
 }
 
