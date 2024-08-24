@@ -63,6 +63,7 @@ M.polish_hl = {
     ["@variable.parameter"] = { fg = M.base_30.blue },
     ["@keyword"] = { fg = M.base_30.blue },
     ["@variable"] = { fg = M.base_30.cyan},
+    ["@variable.member"] = { fg = M.base_30.green1 },
     ["@variable.member.key"] = { fg = M.base_30.green1 },
     ["@keyword.return"] = { fg = M.base_16.base0E },
     ["@keyword.function"] = { fg = M.base_30.teal },
@@ -71,7 +72,8 @@ M.polish_hl = {
     ["@type"] = { fg = M.base_30.green1 },
     ["@type.builtin"] = { fg = M.base_30.green1 },
     ["@keyword.repeat"] = { fg = M.base_30.purple },
-    ["@constant"] = { fg = M.base_30.cyan }
+    ["@constant"] = { fg = M.base_30.blue },
+    ["@property"] = { fg = M.base_30.cyan},
   },
 }
 
