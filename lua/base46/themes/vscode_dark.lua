@@ -15,6 +15,7 @@ M.base_30 = {
   grey_fg = "#4e4e4e",
   grey_fg2 = "#585858",
   light_grey = "#626262",
+  lighter_grey = "#888888",
   red = "#D16969",
   baby_pink = "#ea696f",
   pink = "#bb7cb6",
