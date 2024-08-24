@@ -21,6 +21,7 @@ M.base_30 = {
   line = "#2e2e2e", -- for lines like vertsplit
   green = "#B5CEA8",
   green1 = "#4EC994",
+  comment = "#6A9955",
   vibrant_green = "#bfd8b2",
   blue = "#569CD6",
   nord_blue = "#60a6e0",
@@ -61,10 +62,12 @@ M.polish_hl = {
   treesitter = {
     ["@variable.parameter"] = { fg = M.base_30.blue },
     ["@keyword"] = { fg = M.base_30.blue },
-    ["@variable"] = { fg = M.base_30.cyan },
+    ["@variable"] = { fg = M.base_30.purple},
     ["@variable.member.key"] = { fg = M.base_30.green1 },
     ["@keyword.return"] = { fg = M.base_16.base0E },
     ["@keyword.function"] = { fg = M.base_30.teal },
+    ["@comment"] = { fg = M.base_30.comment },
+    ["@comment.documentation"] = { fg = M.base_30.comment },
   },
 }
 
