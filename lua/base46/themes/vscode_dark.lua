@@ -60,20 +60,23 @@ M.base_16 = {
 
 M.polish_hl = {
   treesitter = {
-    ["@variable.parameter"] = { fg = M.base_30.blue },
     ["@keyword"] = { fg = M.base_30.blue },
-    ["@variable"] = { fg = M.base_30.cyan},
-    ["@variable.member"] = { fg = M.base_30.green1 },
-    ["@variable.member.key"] = { fg = M.base_30.green1 },
     ["@keyword.return"] = { fg = M.base_16.base0E },
     ["@keyword.function"] = { fg = M.base_30.teal },
+    ["@keyword.repeat"] = { fg = M.base_30.purple },
+    ["@keyword.operator"] = { fg = M.base_30.purple },
+    ["@variable"] = { fg = M.base_30.cyan},
+    ["@variable.parameter"] = { fg = M.base_30.cyan},
+    ["@variable.member"] = { fg = M.base_30.green1 },
+    ["@variable.member.key"] = { fg = M.base_30.green1 },
     ["@comment"] = { fg = M.base_30.comment },
     ["@comment.documentation"] = { fg = M.base_30.comment },
     ["@type"] = { fg = M.base_30.green1 },
-    ["@type.builtin"] = { fg = M.base_30.green1 },
-    ["@keyword.repeat"] = { fg = M.base_30.purple },
+    ["@type.builtin"] = { fg = M.base_30.blue },
     ["@constant"] = { fg = M.base_30.blue },
+    ["@constant.builtin"] = { fg = M.base_30.blue },
     ["@property"] = { fg = M.base_30.cyan},
+    ["@constructor"] = { fg = M.base_16.base0D},
   },
 }
 
