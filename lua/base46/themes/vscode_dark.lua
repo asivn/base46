@@ -65,6 +65,7 @@ M.polish_hl = {
     ["@keyword.function"] = { fg = M.base_30.teal },
     ["@keyword.repeat"] = { fg = M.base_30.purple },
     ["@keyword.operator"] = { fg = M.base_30.purple },
+    ["@keyword.import"] = { fg = M.base_30.purple },
     ["@variable"] = { fg = M.base_30.cyan},
     ["@variable.parameter"] = { fg = M.base_30.cyan},
     ["@variable.member"] = { fg = M.base_30.green1 },
@@ -77,6 +78,8 @@ M.polish_hl = {
     ["@constant.builtin"] = { fg = M.base_30.blue },
     ["@property"] = { fg = M.base_30.cyan},
     ["@constructor"] = { fg = M.base_16.base0D},
+    ["texStatement"] = { fg = M.base_16.base0D},
+    ["texBeginEndName"] = { fg = M.base_16.green1},
   },
 }
 
