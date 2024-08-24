@@ -78,7 +78,7 @@ M.polish_hl = {
     ["@constant.builtin"] = { fg = M.base_30.blue },
     ["@property"] = { fg = M.base_30.cyan },
     ["@constructor"] = { fg = M.base_16.base0D },
-    ["texCmd"] = { fg = M.base_16.base0D },
+    ["texCmd"] = { fg = M.base_30.dark_purple },
     ["texCmdTitle"] = { fg = M.base_16.base0D },
     ["texCmdAuthor"] = { fg = M.base_16.base0D },
     ["texCmdPart"] = { fg = M.base_16.base0D },
