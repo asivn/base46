@@ -75,6 +75,8 @@ M.polish_hl = {
     ["@comment.documentation"] = { fg = M.base_30.comment },
     ["@type"] = { fg = M.base_30.green1 },
     ["@type.builtin"] = { fg = M.base_30.blue },
+    ["@tag"] = { fg = M.base_30.green1 },
+    ["@tag.attribute"] = { fg = M.base_30.cyan},
     ["@constant"] = { fg = M.base_30.blue },
     ["@constant.builtin"] = { fg = M.base_30.blue },
     ["@property"] = { fg = M.base_30.cyan },
