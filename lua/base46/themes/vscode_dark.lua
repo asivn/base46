@@ -85,6 +85,7 @@ M.polish_hl = {
     ["texCmdTitle"] = { fg = M.base_16.base0D },
     ["texCmdAuthor"] = { fg = M.base_16.base0D },
     ["texCmdPart"] = { fg = M.base_16.base0D },
+    ["texCmdNewcmd"] = { fg = M.base_30.blue},
     ["texCmdInput"] = { fg = M.base_30.dark_purple },
     ["texCmdClass"] = { fg = M.base_30.dark_purple },
     ["texEnvArgName"] = { fg = M.base_30.cyan },
