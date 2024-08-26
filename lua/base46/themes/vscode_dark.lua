@@ -90,6 +90,7 @@ M.polish_hl = {
     ["texCmdClass"] = { fg = M.base_30.dark_purple },
     ["texEnvArgName"] = { fg = M.base_30.cyan },
     ["texFileArg"] = { fg = M.base_30.green1},
+    ["texFilesOpt"] = { fg = M.base_30.cyan},
     ["texMathCmd"] = { fg = M.base_30.green1 },
     ["texMathSymbol"] = { fg = M.base_30.blue },
   },
