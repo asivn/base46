@@ -79,6 +79,7 @@ M.polish_hl = {
     ["@type.css"] = { fg = M.base_16.base0A },
     ["@tag"] = { fg = M.base_30.green1 },
     ["@tag.html"] = { fg = M.base_30.blue },
+    ["@tag.tsx"] = { fg = M.base_30.blue },
     ["@tag.attribute"] = { fg = M.base_30.cyan},
     ["@constant"] = { fg = M.base_30.blue },
     ["@constant.builtin"] = { fg = M.base_30.blue },
