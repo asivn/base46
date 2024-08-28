@@ -68,6 +68,7 @@ M.polish_hl = {
     ["@keyword.operator"] = { fg = M.base_30.dark_purple },
     ["@keyword.import"] = { fg = M.base_30.dark_purple },
     ["@keyword.directive"] = { fg = M.base_30.dark_purple },
+    ["@keyword.directive.markdown"] = { fg = M.base_30.blue },
     ["@variable"] = { fg = M.base_30.cyan },
     ["@variable.parameter"] = { fg = M.base_30.cyan },
     ["@variable.member"] = { fg = M.base_30.green1 },
@@ -97,6 +98,10 @@ M.polish_hl = {
     ["texFilesOpt"] = { fg = M.base_30.cyan },
     ["texMathCmd"] = { fg = M.base_30.green1 },
     ["texMathSymbol"] = { fg = M.base_30.blue },
+    ["@markup.heading.1.markdown"] = { fg = M.base_30.dark_purple },
+    ["@markup.heading.2.markdown"] = { fg = M.base_30.blue },
+    ["@markup.heading.3.markdown"] = { fg = M.base_30.blue },
+    ["@markup.list.markdown"] = { fg = M.base_16.base09 },
   },
 }
 
