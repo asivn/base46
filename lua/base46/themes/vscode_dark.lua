@@ -1,5 +1,8 @@
 -- Thanks to original theme for existing https://github.com/microsoft/vscode/blob/main/extensions/theme-defaults/themes/dark_plus.json
--- this is a modified version of it
+-- siduck modified it, but it didn't quite look like vscode. the comments were completely unreadable with white in the background since I use transparency with Alacritty.
+-- i took matters into my own hands. i used a colorpicker on many of the VSCode text elements and added many treesitter categories
+-- it's "close enough" for the languages that i didn't explicitly dive into. i targeted python, tsx, html, css, cpp, c, tex, lua, and markdown to make them all look as similar to vscode as possible.
+-- comments not being green was the biggest motivation for this. everything else came after because i'm a perfectionist
 
 local M = {}
 
