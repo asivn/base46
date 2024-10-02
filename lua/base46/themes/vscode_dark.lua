@@ -102,8 +102,8 @@ M.polish_hl = {
     ["texMathCmd"] = { fg = M.base_30.green1 },
     ["texMathSymbol"] = { fg = M.base_30.blue },
     ["@markup.heading.1.markdown"] = { fg = M.base_30.blue },
-    ["@markup.heading.2.markdown"] = { fg = M.base_30.blue },
-    ["@markup.heading.3.markdown"] = { fg = M.base_30.blue },
+    ["@markup.heading.2.markdown"] = { fg = M.base_30.green1 },
+    ["@markup.heading.3.markdown"] = { fg = M.base_16.base08},
     ["@markup.list.markdown"] = { fg = M.base_30.blue},
   },
 }
