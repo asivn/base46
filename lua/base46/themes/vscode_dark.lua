@@ -105,6 +105,7 @@ M.polish_hl = {
     ["@markup.heading.2.markdown"] = { fg = M.base_30.green1 },
     ["@markup.heading.3.markdown"] = { fg = M.base_16.base08},
     ["@markup.list.markdown"] = { fg = M.base_30.blue},
+    ["@markup.raw.block.markdown"] = { bg = M.base_30.one_bg2},
   },
 }
 
