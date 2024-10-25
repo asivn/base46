@@ -78,6 +78,8 @@ M.polish_hl = {
     ["@variable.member.tsx"] = { fg = M.base_30.cyan },
     ["@variable.member.key"] = { fg = M.base_30.green1 },
     ["@comment"] = { fg = M.base_30.comment },
+    ["@module"] = { fg = M.base_30.green1},
+    ["@character"] = { fg = M.base_16.base0B},
     ["@comment.documentation"] = { fg = M.base_30.comment },
     ["@type"] = { fg = M.base_30.green1 },
     ["@type.builtin"] = { fg = M.base_30.blue },
@@ -104,7 +106,6 @@ M.polish_hl = {
     ["@markup.heading.1.markdown"] = { fg = M.base_30.blue },
     ["@markup.heading.2.markdown"] = { fg = M.base_30.green1 },
     ["@markup.heading.3.markdown"] = { fg = M.base_16.base08},
-    ["@markup.list.markdown"] = { fg = M.base_30.blue},
     ["@markup.raw.block.markdown"] = { bg = M.base_30.one_bg2},
   },
 }
