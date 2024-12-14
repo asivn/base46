@@ -81,6 +81,7 @@ M.polish_hl = {
     ["@module"] = { fg = M.base_30.green1},
     ["@character"] = { fg = M.base_16.base0B},
     ["@comment.documentation"] = { fg = M.base_30.comment },
+    ["@function.macro"] = { fg = M.base_16.base0D},
     ["@type"] = { fg = M.base_30.green1 },
     ["@type.builtin"] = { fg = M.base_30.blue },
     ["@type.css"] = { fg = M.base_16.base0A },
